@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+html {
+  font-size: 20px;
+  text-align: center;
+}
+
+@font-face {
+    font-family: 'Libre Franklin 700';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/librefranklin/v7/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhycKkANDJ.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Libre Franklin 400';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/librefranklin/v7/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsWkANDJ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/merriweather/v27/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 20px 10%;
+    display: block;
+    background-color: #1D1F20;
+    min-width: 500px;
+  }
+
+h1 {
+    font-family: 'Libre Franklin 700';
+    display: block;
+    font-size: 2em;
+    text-align: auto;
+    font-weight: bold;
+    color: #FDF8F9;
+    text-align: center;
+   }
+
+h2 {
+    font-family: 'Merriweather';
+    display: block;
+    font-size: 1.5em;
+    text-align: auto;
+    font-weight: bold;
+    color: #FDF8F9;
+   }
+
+p {
+    font-family: 'Libre Franklin 400';
+    display: block;
+    font-size: 1em;
+    text-align: auto;
+    color: #fff;
+   }
+
+header h1 {
+  background-color: #997adb;
+  color: #1D1F20;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 25px;
+}
+
+.box-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  height: 600px;
+  background-image: url("./resources/00main.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+main h2 {
+  background-color: #997adb;
+  border: 0px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+main h3 {
+  background-color: #997adb;
+  border: 0px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+#contenidos {
+  background-color: #453F26;
+  border-radius: 25px;
+  margin-bottom: 35px;
+}
+
+#contenidos h2 {
+  padding-top: 30px;
+  color: #F5DADF;
+}
+
+#contenidos h3 {
+  color: #F5DADF;
+}
+
+.box-contenidos {
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #FDF8F9;
+}
+
+.box-contenidos img {
+  width: 250px;
+  padding: 10px;
+}
+
+.box-contenidos h3 {
+  background-color: #FDF8F9;
+  width: 200px;
+  color: #413E46 !important;
+}
+
+.box-contenidos div {
+  display: inline-flex;
+  background-color: #FDF8F9;
+  align-items: center;
+}
+
+#colaboraciones {
+  background-color: #549769;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  margin-bottom: 35px;
+}
+
+.box-colab {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box-colab div {
+  width: 200px;
+}
+
+.box-colab img {
+  width: 100%;
+}
+
+footer h4 {
+  color: #FDF8F9;
+  margin-top: 40;
+  margin-bottom: 10px;
+}
+
+footer nav {
+  display: inline-flex;
+  width: 300px;
+  justify-content: space-around;
+  
+}
